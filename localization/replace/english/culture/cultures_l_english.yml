@@ -1,0 +1,35 @@
+﻿l_english:
+ #Byzantine group
+ byzantine_group:0 "Romaíoi"
+ byzantine_group_collective_noun:1 "Romaíoi"
+ armenian:0 "Armenian"
+ armenian_prefix:0 "Armeno"
+ armenian_collective_noun:1 "Armenians"
+ greek:0 "Romaíoi"
+ greek_prefix:0 "Romaíoi"
+ greek_collective_noun:1 "Romaíoi"
+ alan:0 "Alan"
+ alan_prefix:0 "Alano"
+ alan_collective_noun:1 "Alans"
+ georgian:0 "Georgian"
+ georgian_prefix:0 "Georgio"
+ georgian_collective_noun:1 "Georgians"
+ assyrian:1 "Syriac"
+ assyrian_prefix:1 "Syro"
+ assyrian_collective_noun:2 "Syriacs"
+
+
+ #Added regional cultures
+ ckbr_dalmation: "Dalmation"
+ ckbr_dalmation_prefix: "Dalmation"
+ ckbr_dalmation_collective_noun: "Dalmation"
+
+ ckbr_pontic: "Pontíoi"
+ ckbr_pontic_prefix: "Pontíoi"
+ ckbr_pontic_collective_noun: "Pontíoi"
+
+ ckbr_anatolian: "Anatolikós"
+ ckbr_anatolian_prefix: "Anatolikós"
+ ckbr_anatolian_collective_noun: "Anatolikós"
+
+

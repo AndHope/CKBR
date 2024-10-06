@@ -1,0 +1,37 @@
+﻿l_english:
+
+# COUNCILLOR_MISSING_CHANCELLOR: "You have no [chancellor|E]"
+# COUNCILLOR_MISSING_MARSHAL: "You have no [marshal|E]"
+# COUNCILLOR_MISSING_STEWARD: "You have no [steward|E]"
+# COUNCILLOR_MISSING_SPYMASTER: "You have no [spymaster|E]"
+# COUNCILLOR_MISSING_COURT_CHAPLAIN: "You have no [court_chaplain|E]"
+
+# councillor_coregent: "Coregent"
+# councillor_coregent_possessive: "Coregent's"
+ councillor_chancellor: "Mágistros" #Sebastokratōr
+ councillor_chancellor_possessive: "Mágistros"
+ councillor_steward: "Sakellários" #Kouropalatēs
+ councillor_steward_possessive: "Sakellários"
+ councillor_marshal: "Protostátis"
+ councillor_marshal_possessive: "Protostátis"
+ councillor_spymaster: "Mystikós"
+ councillor_spymaster_possessive: "Mystikós"
+# councillor_court_chaplain: "Court Chaplain"
+# councillor_court_chaplain_possessive: "Court Chaplain's"
+
+
+#Flavor localization for Court Chaplains, sorted by Religion.
+
+ #Orthodox
+# councillor_court_chaplain_orthodox_county:1 "Suffragan Bishop"
+# councillor_court_chaplain_orthodox_county_possessive:1 "Suffragan Bishop's"
+# councillor_court_chaplain_orthodox_duchy:1 "Bishop"
+# councillor_court_chaplain_orthodox_duchy_possessive:1 "Bishop's"
+# councillor_court_chaplain_orthodox_kingdom: "Patriarch"
+# councillor_court_chaplain_orthodox_kingdom_female: "Matriarch"
+# councillor_court_chaplain_orthodox_kingdom_possessive: "Patriarch's"
+# councillor_court_chaplain_orthodox_kingdom_female_possessive: "Matriarch's"
+# councillor_court_chaplain_orthodox_empire: "Patriarch"
+# councillor_court_chaplain_orthodox_empire_female: "Matriarch"
+# councillor_court_chaplain_orthodox_empire_possessive: "Patriarch's"
+# councillor_court_chaplain_orthodox_empire_female_possessive: "Matriarch's"

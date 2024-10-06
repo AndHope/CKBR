@@ -1,0 +1,31 @@
+Basileia Romaion: CK3 Edition.
+
+The term "Basileia Romaion" (Βασιλεία τῶν Ῥωμαίων) is the Greek name for the Eastern Roman Empire or "Byzantine" Empire. It was the official name of the empire in Greek during its existence. "Basileia" means "Empire" or "Kingdom," and "Romaion" means "of the Romans" or "Roman." This name reflects the "Byzantines"' self-identification as Romans and their continuity with the Roman Empire.
+
+With Roads to Power coming out decided to make a Light weight mod that replaces no vanilla files. Using the replace folder in localization and only changes the following names not entire files should be compatible with all other mods.
+
+Features:
+
+I change the Default name from Byzantine Empire to Basileía Romaíon. You can still change it to Roman Empire or various other options in the game rules.
+Culture changed from Greek to Romaíoi which is what they called themselves.
+Changes a few titles and Councillor positions to their historic names.
+
+Technicals:
+    Renames
+        Base Game; Mod.
+            Cultures: 
+                Greek; Romaíoi
+            Titles:
+                e_byzantium; Basileía Romaíon
+                k_byzantium; Romanía
+                c_byzantion; Konstantinopolis
+                b_constantinople: "Konstantinopolis"
+            Councillors:
+                Chancellor; Mágistros
+                Steward; Sakellários
+                Marshal; Protostátis
+                Spymaster; Mystikós
+
+Will add more changes as nessisary all will be save game compaible in nature.
+
+Join our large and growing Paradox community on Discord: https://discord.gg/ucQnZuFJ6s

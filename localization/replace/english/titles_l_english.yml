@@ -1,0 +1,30 @@
+﻿l_english:
+
+
+ # Default title names
+ c_byzantion:0 "Konstantinopolis"
+ c_byzantion_adj:0 "Konstantinopolis"
+
+ e_byzantium_article:0 ""
+ e_byzantium:0 "Basileía Romaíon"
+ e_byzantium_adj:0 "Rōmaîos"
+ e_eastern_roman_empire_article: "the "
+ e_eastern_roman_empire: "Eastern Roman Empire"
+ e_eastern_roman_empire_adj: "Eastern Roman"
+ e_rhomaion_article: "the "
+ e_rhomaion: "Basileia tōn Rhōmaiōn"
+ e_rhomaion_adj: "Rhōmaîos"
+ e_empire_of_the_greeks_article: "the "
+ e_empire_of_the_greeks: "Empire of the Greeks"
+ e_empire_of_the_greeks_adj: "Greek"
+ e_romania_empire: "Empire of Romania"
+ e_romania_empire_adj: "Romanian"
+ e_unholy_roman_empire_article: "the "
+ e_unholy_roman_empire: "Unholy Roman Empire"
+ e_unholy_roman_empire_adj: "Unholy Roman"
+
+ k_byzantium:0 "Romanía"
+ k_byzantium_adj:0 "Romaíon"
+ k_byzantium_pre:0 "Romaíoi"
+
+ b_constantinople:0 "Konstantinopolis"

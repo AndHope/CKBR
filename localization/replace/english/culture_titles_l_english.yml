@@ -1,0 +1,70 @@
+﻿l_english:
+
+ #############################################CKBR hashed out ones might be changed later.
+
+### Greek ###
+# Feudal / Imperial
+ #count_feudal_male_greek:0 "Komes"
+ #count_feudal_female_greek:0 "Komitissa"
+ #duke_feudal_male_greek:0 "Doux"
+ #duke_feudal_female_greek:0 "Doukissa"
+ #king_feudal_male_greek:0 "Despot"
+ #king_feudal_female_greek:0 "Despotissa"
+ #kingdom_feudal_greek:0 "Despotate"
+ #emperor_feudal_male_greek:0 "Basileus"
+ #emperor_feudal_female_greek:0 "Basilissa"
+
+### Byzantine ###
+# Republic 
+ #duke_republic_male_byzantine_group:1 "Eparch"
+ #duke_republic_female_byzantine_group:1 "Eparchessa"
+ #king_republic_male_byzantine_group:0 "Serene Doge"
+ #king_republic_female_byzantine_group:0 "Serene Dogaressa"
+
+# Viceroyalty 
+ #duke_viceroyalty_male_byzantine_group:0 "Strategos"
+ #duke_viceroyalty_female_byzantine_group: "Strategissa"
+ #duchy_viceroyalty_byzantine_group:0 "Theme"
+ #king_viceroyalty_male_byzantine_group:0 "Exarch"
+ #king_viceroyalty_female_byzantine_group:0 "Exarchessa"
+ #king_viceroyalty_byzantine_group:0 "Exarchate"
+ #emperor_viceroyalty_male_byzantine_group:0 "Grand Exarch"
+ #emperor_viceroyalty_female_byzantine_group:0 "Grand Exarchessa"
+ #empire_viceroyalty_byzantine_group:0 "Grand Exarchate"
+
+### Administrative
+
+ #baron_administrative_male_byzantine_group: "Archon"
+ #baron_administrative_female_byzantine_group: "Archon"
+ #barony_administrative_byzantine_group: "Archontia"
+ #count_administrative_male_byzantine_group: "Tourmarchēs"
+ #count_administrative_female_byzantine_group: "Tourmarchēs"
+ #county_administrative_byzantine_group: "Tourma"
+ #duke_administrative_male_byzantine_group: "Strategos"
+ #duke_administrative_female_byzantine_group: "Strategitissa"
+ #duchy_administrative_byzantine_group: "Theme"
+
+ king_administrative_male_byzantine_group: "Katepano"
+ king_administrative_female_byzantine_group: "Katepano"
+ #king_administrative_independent_male_byzantine_group: "Despot"
+ #king_administrative_independent_female_byzantine_group: "Despotissa"
+ kingdom_administrative_byzantine_group: "Katepanikion"
+ kingdom_administrative_independent_byzantine_group: "Despotate"
+ #emperor_administrative_male_greek: "Basileus"
+ #emperor_administrative_female_greek: "Basilissa"
+
+ #co_ruler_male: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')]"
+ #co_ruler_female: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')]"
+ #co_ruler_actual: "[Character.GetLiege.GetTitleAsNameNoTooltip]"
+ #co_ruler_male_gender_fallback: "[Character.Custom('GetCoRulerDiffGenderBestTitle')]"
+ #co_ruler_female_gender_fallback: "[Character.Custom('GetCoRulerDiffGenderBestTitle')]"
+ #GetCoRulerDiffGenderBestTitle_Spouse: "[Character.GetLiege.GetPrimarySpouse.GetTitleAsNameNoTooltip]"
+
+ ### Estates
+ #spouse_estate_holder_male: "Lord"
+ #spouse_estate_holder_female: "Lady"
+
+ ### Easter Eggs
+ #lady_in_shadows: "Lady in Shadows"
+
+ ### Additional Flavor Titles
