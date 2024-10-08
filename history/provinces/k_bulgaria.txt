@@ -423,7 +423,7 @@
 
 ###c_ohrid
 471 = {		#Ochrid
-	culture = bulgarian
+	culture = albanian #mix of slav, albanian/vlach for Aromanians (Arumanians)
 	religion = orthodox
 	holding = castle_holding
 	550.1.1 = {

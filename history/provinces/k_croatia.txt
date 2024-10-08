@@ -25,6 +25,27 @@
 	#created in 1337 ?
 }
 
+#from Bavaria
+##d_istria ###################################
+###c_pula
+2518 = {	#PULA
+	culture = ckbr_dalmation
+	religion = catholic
+	holding = castle_holding
+}
+2519 = {	#PIRAN
+	holding = city_holding
+}
+2520 = {	#PAZIN
+	holding = none
+	980.1.1 = {
+		holding = castle_holding
+	}
+}
+2522 = {	#LABIN
+	holding = none
+}
+
 ###c_knin
 3548 = {	#Knin
 	culture = ckbr_dalmation

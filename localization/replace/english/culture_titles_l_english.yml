@@ -53,6 +53,14 @@
  #emperor_administrative_male_greek: "Basileus"
  #emperor_administrative_female_greek: "Basilissa"
 
+ #Not sure if this works don't even know where this title is shown?
+ co_ruler_male: "Symbasileus"
+ co_ruler_female: "Symbasileus"
+ co_ruler_actual: "Symbasileus"
+ co_ruler_male_gender_fallback: "Symbasileus"
+ co_ruler_female_gender_fallback: "Symbasileus"
+ #GetCoRulerDiffGenderBestTitle_Spouse: "[Character.GetLiege.GetPrimarySpouse.GetTitleAsNameNoTooltip]"
+
  #co_ruler_male: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')]"
  #co_ruler_female: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')]"
  #co_ruler_actual: "[Character.GetLiege.GetTitleAsNameNoTooltip]"

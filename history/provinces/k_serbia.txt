@@ -199,10 +199,11 @@
 ##d_duklja ###################################
 ###c_duklja
 469 = {		#Zeta / b_ribnicapodgorica / Ribnica / Podgorica
-	culture = serbian
-	religion = slavic_pagan
+	culture = albanian
+	religion = bosnian_church
 	holding = castle_holding
 	870.1.1 = {
+		culture = serbian
 		religion = orthodox
 	}
 }
@@ -240,7 +241,7 @@
 	}
 }
 3576 = {	#Ulcinj
-	holding = tribal_holding
+	holding = city_holding
 	#Already used long before CK timeframe
 }
 3574 = {	#Kotor / b_cattaro
