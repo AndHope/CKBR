@@ -65,9 +65,8 @@
 	# History
 	867.1.1 = {
 		buildings = {
-			pastures_01
-			#hill_farms_01
-			military_camps_01
+			pastures_02
+			hill_farms_01
 		}
 	}
 	1100.1.1 = {
@@ -109,8 +108,7 @@
 	867.1.1 = {
 		buildings = {
 			curtain_walls_02
-			#common_tradeport_01
-			barracks_01
+			common_tradeport_01
 		}
 	}
 	1178.1.1 = {

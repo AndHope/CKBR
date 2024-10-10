@@ -11,16 +11,9 @@
 	}
 	867.1.1 = {
 		buildings = {
-			hill_forts_01
+			hill_forts_02
 			common_tradeport_02
 			hill_farms_02
-		}
-	}
-	1066.1.1 = {
-		buildings = {
-			hill_forts_01
-			common_tradeport_01
-			#hill_farms_01
 		}
 	}
 }
@@ -29,7 +22,7 @@
 	867.1.1 = {
 		buildings = {
 			guild_halls_01
-			cereal_fields_01
+			cereal_fields_02
 		}
 	}
 }
@@ -109,7 +102,7 @@
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
-			cereal_fields_01
+			cereal_fields_02
 		}
 	}
 }

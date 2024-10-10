@@ -207,3 +207,34 @@ ckbr_syrian = {
 		10 = mediterranean_byzantine
 	}
 }
+
+ckbr_coptic = {
+	color = ancient_egyptian
+
+	parents = { ancient_egyptian }
+
+	created = 100.1.1
+
+	ethos = ethos_spiritual
+	heritage = heritage_egyptian
+	language = language_egyptian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_loyal_soldiers
+	}
+	
+	name_list = name_list_ancient_egyptian
+	
+	coa_gfx = { byzantine_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		10 = mediterranean
+		10 = arab
+	}
+}

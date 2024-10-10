@@ -65,7 +65,7 @@
 	867.1.1 = {
 		buildings = {
 			hill_forts_03
-			hill_farms_01
+			hill_farms_02
 			#barracks_01
 		}
 	}

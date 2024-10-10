@@ -8,8 +8,8 @@
 	# History	
 	769.1.1 = {
 		buildings = {
-			castle_03
-			common_tradeport_04
+			castle_04
+			common_tradeport_05
 			farm_estates_04
 		}
 		special_building = hagia_sophia_01
@@ -48,8 +48,7 @@
 	holding = city_holding
 	867.1.1 = {
 		buildings = {
-			curtain_walls_01
-			cereal_fields_01
+			cereal_fields_02
 		}
 	}
 }
@@ -57,7 +56,6 @@
 	holding = church_holding
 	867.1.1 = {
 		buildings = {
-			curtain_walls_01
 			cereal_fields_01
 			monastic_schools_01
 			scriptorium_01
@@ -148,13 +146,7 @@
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
-		}
-	}
-	1066.1.1 = {
-		buildings = {
-			common_tradeport_01
-			#pastures_01
-			military_camps_01
+			pastures_01
 		}
 	}
 	#1374 - Ottomans
@@ -231,7 +223,7 @@
 	}
 	867.1.1 = {
 		buildings = {
-			curtain_walls_02
+			curtain_walls_03
 			common_tradeport_02
 			farm_estates_01
 			#cereal_fields_01
@@ -288,7 +280,7 @@
 		buildings = {
 			monastic_schools_01
 			scriptorium_01
-			hospices_01
+			hospices_02
 		}
 	}
 }
@@ -335,7 +327,7 @@
 	holding = church_holding
 	867.1.1 = {
 		buildings = {
-			cereal_fields_01
+			cereal_fields_02
 		}
 	}
 }

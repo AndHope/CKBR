@@ -68,7 +68,7 @@
 	holding = castle_holding
 	buildings = {
 			common_tradeport_02
-			cereal_fields_01
+			cereal_fields_02
 		}
 	
 	# History
@@ -142,15 +142,8 @@
 	# History
 	867.1.1 = {
 		buildings = {
-			common_tradeport_01
-			cereal_fields_01
-		}
-	}
-	1066.1.1 = {
-		buildings = {
 			common_tradeport_02
-			barracks_01
-			hunting_grounds_01
+			cereal_fields_02
 		}
 	}
 }
@@ -168,7 +161,7 @@
 	867.1.1 = {
 		buildings = {
 			hill_forts_01
-			pastures_01
+			pastures_02
 
 		}
 	}
