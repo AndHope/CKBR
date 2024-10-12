@@ -589,7 +589,7 @@
 
 ###c_rhodopes
 3617 = {	#Nevrokop
-	culture = greek
+	culture = vlach
 	religion = orthodox
 	holding = castle_holding
 

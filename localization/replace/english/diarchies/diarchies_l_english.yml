@@ -1,0 +1,8 @@
+﻿l_english:
+ ##################################################
+ ##################################################
+ # #Diarchy Types
+ junior_emperorship_diarchy_type: "[nominal_duumvirate|E]"
+ junior_emperorship_diarch_title: "Nominal Symbasileus"
+ co_emperorship_diarchy_type: "[duumvirate|E]"
+ co_emperorship_diarch_title: "Symbasileus"

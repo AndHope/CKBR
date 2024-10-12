@@ -49,8 +49,8 @@
 735 = {	# 735 - Ablastha
 	
 	# Misc
-	culture = greek #ckbr_anatolian
-	religion = orthodox
+	culture = armenian #ckbr_anatolian
+	religion = iconoclast
 	
 	holding = castle_holding
 	
@@ -471,8 +471,8 @@
 5604 = {	# 5604 - Karnalis
 	
 	# Misc
-	culture = greek #ckbr_anatolian
-	religion = orthodox
+	culture = armenian #ckbr_anatolian
+	religion = iconoclast
 	
 	holding = castle_holding
 	
@@ -948,8 +948,8 @@
 5703 = {	# 5703 - Satala
 	
 	# Misc
-	culture = greek #ckbr_anatolian
-	religion = orthodox
+	culture = armenian #ckbr_anatolian
+	religion = iconoclast
 	
 	holding = castle_holding
 	

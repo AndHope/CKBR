@@ -364,7 +364,7 @@
 
 ###c_thessaliotis
 3797 = {	#Trikala
-	culture = greek
+	culture = vlach
 	religion = orthodox
 	holding = castle_holding
 }

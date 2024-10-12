@@ -200,7 +200,7 @@
 ###c_duklja
 469 = {		#Zeta / b_ribnicapodgorica / Ribnica / Podgorica
 	culture = albanian
-	religion = bosnian_church
+	religion = bogomilist # Didn't start until the 10th century but here so that it hopefully spreads in the balkans
 	holding = castle_holding
 	870.1.1 = {
 		culture = serbian

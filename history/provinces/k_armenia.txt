@@ -139,7 +139,7 @@
 	
 	# Misc
 	culture = armenian
-	religion = orthodox
+	religion = armenian_apostolic
 	
 	holding = castle_holding
 	
@@ -151,7 +151,7 @@
 	
 	# Misc
 	culture = armenian
-	religion = orthodox
+	religion = armenian_apostolic
 	
 	holding = none
 	
@@ -163,7 +163,7 @@
 	
 	# Misc
 	culture = armenian
-	religion = orthodox
+	religion = armenian_apostolic
 	
 	holding = none
 	
@@ -175,7 +175,7 @@
 	
 	# Misc
 	culture = armenian
-	religion = orthodox
+	religion = armenian_apostolic
 	
 	holding = city_holding
 	
