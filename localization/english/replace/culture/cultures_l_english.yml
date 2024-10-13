@@ -36,9 +36,9 @@
  egyptian: "Misri"
  egyptian_prefix: "Misri"
  egyptian_collective_noun: "Misris"
- culture_coptic: "Aigyptios"
- culture_coptic_prefix: "Aigyptios"
- culture_coptic_collective_noun: "Aigyptios"
+ ckbr_coptic: "Aigyptios"
+ ckbr_coptic_prefix: "Aigyptios"
+ ckbr_coptic_collective_noun: "Aigyptios"
 
  #Added regional cultures
  ckbr_dalmation: "Dalmation"

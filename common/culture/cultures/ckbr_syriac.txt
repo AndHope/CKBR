@@ -10,6 +10,7 @@
 		tradition_loyal_soldiers
 		tradition_philosopher_culture
 		tradition_caravaneers
+		tradition_RICE_silk_road #From Rice
 	}
 	
 	name_list = name_list_assyrian

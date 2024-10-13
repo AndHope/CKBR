@@ -1,0 +1,103 @@
+
+e_byzantium = {
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=yellow
+	colored_emblem={
+		color1=yellow
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.090000 }
+			scale={ 0.110000 0.040000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.500000 0.425000 }
+			scale={ 0.280000 0.280000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		color2=purple
+		texture="ce_crown.dds"
+		instance={
+			position={ 0.500000 0.105000 }
+			scale={ 0.150000 0.100000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_chi_rho.dds"
+		instance={
+			position={ 0.500000 0.425000 }
+			scale={ 0.140000 0.140000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_laurels.dds"
+		instance={
+			position={ 0.500000 0.430000 }
+			scale={ 0.300000 0.300000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=purple
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.425000 }
+			scale={ 0.265000 0.265000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_byzantine_double_eagle.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.950000 1.000000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_cross_07.dds"
+		instance={
+			position={ 0.500000 0.055000 }
+			scale={ 0.065000 0.065000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+e_bulgaria = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_leopard_passant_guardant.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.16 } scale = { 0.85 0.85 }  }
+		instance = { position = { 0.5 0.415 } scale = { 0.85 0.85 }  }
+		instance = { position = { 0.5 0.67 } scale = { 0.85 0.85 }  }
+	}
+}

@@ -1,0 +1,30 @@
+###Patch Notes
+10/13/24
+
+    - Added Empire of Bulgaria as a titular tile. May make Dejure over Most of Bulgaria Later.
+
+    - Added Aigyptios culture (Romaioi name for the coptic people) (Added the RICE mod Nile trait which will only show up if you have rice enabled.)
+    - Changed Egyptian into Misir Hybrid between Aigyptios and Bedouin.
+    - Improved Arab/Berber cultures to allow them to raid even if not tribal to simulate the annual raiding that happened between the Arabs and ERE. (Will look at creating a stuggle mechanic eventually)
+    - Renamed E_France to Caroliginian Empire and given to 
+    - Add Raiding to Frontier Themes.
+    - Add Naval Raiding to Naval Themes.
+
+
+
+
+
+
+
+
+###TODO
+updated 10/5/24
+
+    - Figure out how to make councillor titles culture specific
+
+    #Been trying to make these work by directly editiing the admin_vassal file no luck can currently get this feature from the 
+
+
+#COOL Features ideas I am probably not smart enough to make on my own.
+    - Senate
+    - Border friction/Raiding between ERE/Arabia.

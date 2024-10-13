@@ -1,0 +1,244 @@
+## Completely New Traditions ##
+
+tradition_ghazi = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = mena
+		4 = dismounted_warrior.dds
+	}
+
+	is_shown = {
+		scope:character = {
+			has_religion = religion:islam_religion #You need to be Muslim
+		}
+	}
+
+	can_pick = {
+		NOT = {
+			scope:character = {
+				has_government = tribal_government
+			}
+		}
+
+		culture_not_pacifistic_trigger = yes
+
+		# Must have a significant cultural presence in the general Turanian area, i.e. the "frontier"
+		custom_tooltip = {
+			text = culture_on_western_frontier_desc
+			any_culture_county = {
+				percent >= 0.2
+				any_county_province = {
+					OR = {
+						geographical_region = ghw_region_anatolia
+						geographical_region = ghw_region_near_east
+						geographical_region = ghw_region_caucasus
+					}
+				}
+			}
+		}	
+	}
+
+	parameters = {
+		zealous_trait_more_common = yes
+		powerful_foreign_knights_find_you_attractive = yes
+		culture_can_raid_over_land_even_if_feudal_no_restrictions = yes
+		faith_warrior_traits_more_valued = yes
+	}
+
+	culture_modifier = {
+		mercenary_count_mult = 0.5
+	}
+	
+	province_modifier = {
+		
+	}
+	
+	character_modifier = {
+		mercenary_hire_cost_mult = -0.15
+		accolade_glory_gain_mult = 0.1
+		movement_speed = 0.05
+		ai_zeal = low_positive_ai_value
+		ai_boldness = very_low_positive_ai_value
+		ai_greed = very_low_positive_ai_value
+	}
+	
+	cost = {
+		prestige = {
+			# Base cost.
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			# Ethos requirement.
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_stoic_desc
+				}
+			}
+			#Historical border cultures get a discount
+			if = {
+				limit = {
+					NOR = {
+						has_cultural_pillar = heritage_iranian
+						has_cultural_pillar = heritage_arabic
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = not_of_relevant_islamic_heritage_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = { 
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.4
+							any_county_province = {
+								OR = {
+									geographical_region = ghw_region_anatolia
+									geographical_region = ghw_region_near_east
+									geographical_region = ghw_region_caucasus
+								}
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+tradition_barbary_corsairs = {
+    category = regional
+
+	layers = {
+		0 = intrigue
+		1 = mediterranean
+		4 = battle.dds
+	}
+    
+    is_shown = {
+        has_cultural_pillar = heritage_berber
+    }
+	
+    can_pick = {
+        has_cultural_pillar = heritage_berber
+		custom_description = {
+			text = percentage_of_culture_on_coast_desc
+			any_culture_county = {
+				percent >= 0.5
+				any_county_province = {
+					is_coastal = yes
+				}
+			}
+		}
+    }
+    
+    parameters = {
+		culture_can_raid_at_sea_even_if_feudal = yes
+    }
+
+	character_modifier = {
+		max_loot_mult = 0.5
+		embarkation_cost_mult = -0.25
+		naval_movement_speed_mult = 0.25
+		coastal_advantage = 5
+		raid_speed = 0.5
+
+		ai_greed = 15
+		ai_boldness = 5
+	} 
+
+    cost = {
+        prestige = {
+            add = {
+                value = tradition_base_cost
+                desc = BASE
+                format = "BASE_VALUE_FORMAT"
+            }
+			# Ethos requirement.
+			if = {
+				limit = {
+					NOT = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_desc
+				}
+			}
+			# Coastal requirement.
+			if = {
+				limit = {
+					NOT = {
+						any_culture_county = {
+							percent >= 0.7
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = high_coastal_percentage_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 3
+								culture = prev
+								primary_title.tier >= tier_county
+								OR = {
+									has_trait = reaver
+								}
+							}
+						}
+					}
+					trigger_else = {
+						NOR = {
+							culture_pillar:heritage_turkic = { is_in_list = traits }
+							culture_pillar:heritage_mongolic = { is_in_list = traits }
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = rulers_with_reaver_desc
+				}
+			}
+			
+            multiply = tradition_replacement_cost_if_relevant
+        }
+    }
+
+    ai_will_do = { value = 100 }
+}

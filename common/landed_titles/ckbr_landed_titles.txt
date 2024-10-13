@@ -1,0 +1,20 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+@never_primary_score = -1000
+
+# EMPIRES
+
+e_bulgaria = {
+	color = { 93 68 81 }
+	capital = c_turnovo # Turnovo
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:bulgarian
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}

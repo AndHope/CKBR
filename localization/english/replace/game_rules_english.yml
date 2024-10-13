@@ -1,0 +1,13 @@
+﻿l_english:
+
+ rule_admin_frontier_raiding: "Admin Vassal: Frontier Raiding"
+ setting_admin_frontier_raiding_on: "On"
+ setting_admin_frontier_raiding_on_desc: "Frontier-Themes will be able to raid."
+ setting_admin_frontier_raiding_off: "Off"
+ setting_admin_frontier_raiding_off_desc: "Frontier-Themes won't be able to raid."
+
+ rule_admin_naval_raiding: "Admin Vassal: Naval Raiding"
+ setting_admin_naval_raiding_on: "On"
+ setting_admin_naval_raiding_on_desc: "Naval-Themes will be able to raid."
+ setting_admin_naval_raiding_off: "Off"
+ setting_admin_naval_raiding_off_desc: "Naval-Themes won't be able to raid."

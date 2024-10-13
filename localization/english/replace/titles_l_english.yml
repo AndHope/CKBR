@@ -28,3 +28,19 @@
  k_byzantium_pre: "Romaíoi"
 
  b_constantinople: "Konstantinopolis"
+
+  #Francia
+ e_france_article: "the "
+ e_france: "Carolingian Empire"
+ e_france_adj: "Carolingian"
+  #West Francia
+ WEST_FRANCIA_adj: "West Frankish"
+  #East Francia
+ k_east_francia_adj:1 "East Frankish"
+  #Holy Roman Empire
+ e_hre_adj: "Imperial"
+
+ ###Added
+   #Empire of Bulgaria
+ e_bulgaria: "Bulgaria"
+ e_bulgaria_adj: "Bulgarian"

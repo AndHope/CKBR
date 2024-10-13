@@ -1,0 +1,23 @@
+﻿admin_frontier_raiding = {
+	
+	categories = {
+		tweaks
+	}
+	
+	default = admin_frontier_raiding_on
+	admin_frontier_raiding_on = {}
+	admin_frontier_raiding_off = {}
+}
+
+admin_naval_raiding = {
+	
+	categories = {
+		tweaks
+	}
+	
+	default = admin_naval_raiding_on
+	admin_naval_raiding_on = {}
+	admin_naval_raiding_off = {}
+}
+
+
