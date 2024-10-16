@@ -274,3 +274,12 @@ d_nf_phokas = { # Phokas (Charsianon)
 		holder = 0
 	}
 }
+
+#Baronies
+#Orthodox Holy Order
+
+b_comana_LYK = { # holy_sepulchre
+	867.1.1 = {
+		holder = ckbr_phokas_01
+	}
+}

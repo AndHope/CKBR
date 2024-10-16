@@ -1,0 +1,25 @@
+contantinapole_hippodrome_modifier = {
+	icon = horse_positive
+
+	development_growth_factor = 0.1
+
+	monthly_income = -1
+
+	monthly_influence_mult = 0.1
+	monthly_influence = 0.1
+
+	#stationed_heavy_cavalry_damage_mult = low_maa_damage_tier_1
+	#stationed_heavy_cavalry_toughness_mult = low_maa_toughness_tier_1
+}
+
+contantinapole_senate_modifier = {
+	icon = horse_positive
+
+	development_growth_factor = 0.1
+
+	monthly_income = -1
+
+	monthly_influence_mult = 0.1
+	monthly_influence = 0.1
+
+}

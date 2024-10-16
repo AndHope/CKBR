@@ -1,4 +1,13 @@
 ###Patch Notes
+10/16/24
+
+- Renamed Caroligion Empire to their offical name of Imperium Romanorum sive Francorum
+- Adjusted the color to be less similar to france.
+- Made a couple new Duchies in Southern Italy
+- Characters that were historic vassals of constantinople in 867 properly made so. Napoli, Sardinia and Dalmatia
+- Some building Adjustments in Soutern Italy.
+- More Starting characters in Constantinople. 
+
 10/15/24
     - Created Four New Kingdom titles to represent Frontier Katepanikions under the peak of the macedonian renisiance 
         - Thrace, Antioch, Edessa and Dalmatia

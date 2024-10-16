@@ -16866,6 +16866,19 @@
 	836.1.1 = {
 		birth = "836.1.1"
 	}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
+	}
 	896.1.1 = {
 		death = "896.1.1"
 	}
@@ -18020,6 +18033,19 @@
 	culture = "greek"
 	839.1.1 = {
 		birth = "839.1.1"
+	}
+	867.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					government_allows = administrative
+				}
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+		}
 	}
 	891.1.1 = {
 		death = "891.1.1"
