@@ -19,9 +19,9 @@
  e_empire_of_the_greeks_adj: "Greek"
  e_romania_empire: "Empire of Romania"
  e_romania_empire_adj: "Romanian"
- e_unholy_roman_empire_article: "the "
- e_unholy_roman_empire: "Unholy Roman Empire"
- e_unholy_roman_empire_adj: "Unholy Roman"
+ e_unholy_roman_empire_article: ""
+ e_unholy_roman_empire: "Romanía"
+ e_unholy_roman_empire_adj: "Romaíon"
 
  k_byzantium: "Romanía"
  k_byzantium_adj: "Romaíon"
@@ -30,17 +30,37 @@
  b_constantinople: "Konstantinopolis"
 
   #Francia
- e_france_article: "the "
- e_france: "Carolingian Empire"
- e_france_adj: "Carolingian"
   #West Francia
  WEST_FRANCIA_adj: "West Frankish"
   #East Francia
- k_east_francia_adj:1 "East Frankish"
+ k_east_francia_adj: "East Frankish"
   #Holy Roman Empire
+ e_hre_article: ""
+ e_hre: "Imperium Romanorum sive Francorum"
  e_hre_adj: "Imperial"
+
+ e_italy: "Imperium Meditaliae"
+ e_italy_adj: "Imperiale"
+
 
  ###Added
    #Empire of Bulgaria
  e_bulgaria: "Bulgaria"
  e_bulgaria_adj: "Bulgarian"
+
+ ##Katepanikions
+ k_dalmatia: "Dalmatía"
+ k_dalmatia_adj: "Dalmatían"
+ k_antioch: "Antiochia"
+ k_antioch_adj: "Antiochian"
+ k_thrace: "Thrace"
+ k_thrace_adj: "Thracian"
+ k_edessa: "Édessa"
+ k_edessa_adj: "Édessan"
+
+ #renamed themes
+ d_charsianon: "Lykandos"
+ d_charsianon_adj: "Lykandian"
+ d_crimea: "Taurica"
+ d_crimea_adj: "Taurican"
+

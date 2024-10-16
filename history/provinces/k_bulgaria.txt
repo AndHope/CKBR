@@ -12,7 +12,7 @@
 ###c_vidin
 506 = {		#Vidin
 	culture = vlach
-	religion = orthodox
+	religion = bogomilist
 	holding = castle_holding
 	893.1.1 = {
 		religion = orthodox
@@ -44,7 +44,7 @@
 ###c_branicevo
 3664 = {	#Branicevo
 	culture = vlach
-	religion = orthodox
+	religion = bogomilist
 	holding = tribal_holding
 	893.1.1 = {
 		religion = orthodox

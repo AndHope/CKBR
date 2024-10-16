@@ -1,4 +1,24 @@
 ###Patch Notes
+10/15/24
+    - Created Four New Kingdom titles to represent Frontier Katepanikions under the peak of the macedonian renisiance 
+        - Thrace, Antioch, Edessa and Dalmatia
+        - Thrace seperated from Thessalonika, few counties from Bulgaria.
+        - Dalmatia for the coast seperated from Croatia
+        - Antioch from Anatolia and Syria
+        - Edessa from Armenia, Jazuria and Syria
+    - Created Greater Armenia as New Empire tier title 
+    - Added a couple Baronies to Konstantinople
+    - Reblanced the Anatolian themes. To make the Anatolia/Pontus Borders look better.
+    - Added Caroliginian Empire Dejure to the map (Is using the HRE by merging French/Italia Empires into it.)
+    - Louis the Younger in the Emperor though his authority is limited.
+        - Slightly increased his control so he starts with 20% of the dejure so the title won't collapse within a few months. 
+    - Spent a good amount of time trying to create custom loc for the councillor positions even with me getting help on the mod co-op I coulden't make it work. I kept my work in the mod if you can make it work message me. 
+    - Activated house Phokas as a noble family with an estate in 867 start date.
+    - Anatolian Frontier Themes start with a few more title MAA
+    - Redrew all the Anatolian & Pontic Themes to better reflect their historic Borders
+    - Set all the frontier ones to frontiers
+
+
 10/13/24
 
     - Added Empire of Bulgaria as a titular tile. May make Dejure over Most of Bulgaria Later.

@@ -2,6 +2,28 @@
 ##
 #Serbs convert from paganism to Orthodoxy in ~870
 ##
+##d_syrmia ###################################
+###c_szerem
+3739 = {	#Szerem
+	culture = serbian
+	religion = slavic_pagan
+	holding = castle_holding
+	870.1.1 = {
+		religion = orthodox
+	}
+}
+3611 = {	#Ilok
+	holding = none
+	#1st mention in XIIIth
+}
+3613 = {	#Zemun
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+		#Seems to have already been a city before the XIIth
+	}
+}
 ##d_rashka ###################################
 ###c_rashka
 502 = {		#Rashka / b_novotrgoviste

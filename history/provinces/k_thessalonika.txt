@@ -17,6 +17,22 @@
 	}
 }
 
+3761 = {	#Selymbria
+	holding = city_holding
+	
+}
+3762 = {	#Herakleia Perinthos AKA Marmara Ereglisi
+	holding = church_holding
+	867.1.1 = {
+		buildings = {
+			cereal_fields_01
+			monastic_schools_01
+			scriptorium_01
+			hospices_01
+		}
+	}
+}
+
 ###c_kalliopolis
 495 = {		#Kaliopolis
 	culture = greek
@@ -52,20 +68,7 @@
 		}
 	}
 }
-3761 = {	#Selymbria
-	holding = church_holding
-	867.1.1 = {
-		buildings = {
-			cereal_fields_01
-			monastic_schools_01
-			scriptorium_01
-			hospices_01
-		}
-	}
-}
-3762 = {	#Herakleia Perinthos AKA Marmara Ereglisi
-	holding = church_holding
-}
+
 3759 = {	#Bizye AKA Vize
 	holding = city_holding
 }

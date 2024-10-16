@@ -1,0 +1,33 @@
+﻿councillor_chancellor_roman = {
+	type = character
+	#gender = male
+	special = councillor
+	priority = 299
+	council_position = councillor_chancellor
+}
+councillor_marshal_roman = {
+	type = character
+	#gender = male
+	special = councillor
+	priority = 299
+	council_position = councillor_marshal
+}
+
+councillor_steward_roman = {
+	type = character
+	#gender = male
+	special = councillor
+	priority = 299
+	council_position = councillor_steward
+}
+
+councillor_spymaster_roman = {
+	type = character
+	#gender = male
+	special = councillor
+	priority = 299
+	council_position = councillor_spymaster
+}
+
+
+#council_title: " [Character.Custom('CouncilPosition')]

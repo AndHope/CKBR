@@ -138,7 +138,7 @@
 ###c_debar
 3724 = {	#Debar
 	culture = albanian
-	religion = orthodox
+	religion = bogomilist
 	holding = castle_holding
 }
 3723 = {	#Peshkopi

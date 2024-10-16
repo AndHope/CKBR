@@ -1,0 +1,58 @@
+﻿CouncilPosition = {
+	type = character
+
+	#Mágistros
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			has_culture = culture:greek
+		}
+		localization_key = councillor_chancellor_roman
+	}
+
+	#Protostátis
+	text = {
+		trigger = {
+			has_council_position = councillor_marshal
+			has_culture = culture:greek
+		}
+		localization_key = councillor_marshal_roman
+	}
+
+
+	#Sakellários
+	text = {
+		trigger = {
+			has_council_position = councillor_steward
+			has_culture = culture:greek
+		}
+		localization_key = councillor_steward_roman
+	}
+
+	#Mystikós
+	text = {
+		trigger = {
+			has_council_position = councillor_spymaster
+			has_culture = culture:greek
+		}
+		localization_key = councillor_spymaster_roman
+	}
+
+}
+
+councillor_chancellor = {
+	type = character
+
+	#Mágistros
+	text = {
+		trigger = {
+			has_council_position = councillor_chancellor
+			has_culture = culture:greek
+		}
+		localization_key = councillor_chancellor_roman
+	}
+
+}
+
+
+

@@ -1,4 +1,4 @@
-
+#Edited
 e_byzantium = {
 	pattern="pattern_solid.dds"
 	color1=purple
@@ -88,6 +88,7 @@ e_byzantium = {
 
 }
 
+#Added
 e_bulgaria = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
@@ -101,3 +102,62 @@ e_bulgaria = {
 		instance = { position = { 0.5 0.67 } scale = { 0.85 0.85 }  }
 	}
 }
+
+k_dalmatia = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_lion_head.dds"
+		color1 = "white"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { position = { 0.500 0.740 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.680 0.340 } scale = { 0.45 0.45 }  }
+		instance = { position = { 0.320 0.340 } scale = { 0.45 0.45 }  }
+	}
+	colored_emblem = {
+		texture = "ce_crown.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "black"
+		instance = { position = { 0.50 0.53 } scale = { 0.22 0.20 }  }
+		instance = { position = { 0.68 0.13 } scale = { 0.22 0.20 }  }
+		instance = { position = { 0.32 0.13 } scale = { 0.22 0.20 }  }
+	}
+}
+
+k_antioch = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_ordinary_cross_5.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+}
+
+k_thrace = {
+	pattern = "pattern_solid.dds"
+	color1 = "purple"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_horizontal_stripes_01.dds"
+		color1 = "purple"
+		color2 = "white"
+		instance = { position = { 0.50 0.67 } scale = { 1.0 1.34 }  }
+	}
+}
+
+k_edessa = {
+	pattern = "pattern_shield_01.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_circles_01.dds"
+		color1 = "red"
+		instance = {	position = { 0.5 0.48 }	scale = { 0.75 0.75 }	}
+	}
+}
+
