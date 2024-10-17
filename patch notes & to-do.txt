@@ -1,4 +1,11 @@
 ###Patch Notes
+10/17/24
+
+- Renamed HRE from Imperium Romanorum sive Francorum to Imperium Romanorum to better reflect the later start dates.
+- France is removed from Imperium Romanorums De_Jure in the later bookmarks
+
+- Added 6 New Adventurers around the ERE in 867. The Goal is for them to add extra flavor and hopefully cause some trouble..
+
 10/16/24
 
 - Renamed Caroligion Empire to their offical name of Imperium Romanorum sive Francorum

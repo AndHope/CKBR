@@ -6851,7 +6851,7 @@
 	855.1.1 = {
 		birth = "855.1.1"
 		effect = {
-			add_gold = 100
+			add_gold = 200
 			add_martial_lifestyle_perk_points = 8
 		}
 	}

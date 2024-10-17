@@ -280,7 +280,7 @@ ckbr_varangian_02 = {
 
 #Holy Order Leader
 ckbr_phokas_01 = {
-	name = "Nikephoros"
+	name = "Bardas"
 	dynasty = 641
 	martial = 14
 	diplomacy = 4
@@ -297,8 +297,8 @@ ckbr_phokas_01 = {
 		birth = "820.1.1"
 	}
 	867.1.1 = {
-		trait = bastard
 		effect = {
+			add_martial_lifestyle_perk_points = 8
 			add_perk = stalwart_leader_perk
 			add_perk = chivalric_dominance_perk
 			add_perk = never_back_down_perk
@@ -314,3 +314,88 @@ ckbr_phokas_01 = {
 		death = "908.1.1"
 	}
 }
+
+#Maidens
+ckbr_maiden_01 = {
+	name = "Helene"
+	female = yes
+	dynasty = 627
+	martial = 1
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 10
+	learning = 8
+ 	prowess = 1
+	religion = "orthodox"
+	culture = "greek"
+	trait = diligent
+	trait = greedy
+	trait = education_stewardship_3
+	trait = beauty_good_1
+	father = 145150
+	851.1.1 = {
+		birth = "851.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+	}
+	908.1.1 = {
+		death = "908.1.1"
+	}
+}
+ckbr_maiden_02 = {
+	name = "Sophia"
+	female = yes
+	dynasty = 100753
+	martial = 1
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 10
+	learning = 8
+ 	prowess = 1
+	religion = "orthodox"
+	culture = "greek"
+	trait = cynical
+	trait = lustful
+	trait = education_stewardship_3
+	trait = beauty_good_3
+	father = 145144
+	850.1.1 = {
+		birth = "850.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+	}
+	908.1.1 = {
+		death = "908.1.1"
+	}
+}
+ckbr_maiden_03 = {
+	name = "Theophano"
+	female = yes
+	dynasty = 633
+	martial = 1
+	diplomacy = 4
+	intrigue = 4
+	stewardship = 10
+	learning = 8
+ 	prowess = 1
+	religion = "orthodox"
+	culture = "greek"
+	trait = generous
+	trait = honest
+	trait = education_stewardship_3
+	trait = beauty_good_2
+	father = 145164
+	851.1.1 = {
+		birth = "851.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+	}
+	908.1.1 = {
+		death = "908.1.1"
+	}
+}
+
+

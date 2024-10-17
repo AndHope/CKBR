@@ -36,7 +36,7 @@
  k_east_francia_adj: "East Frankish"
   #Holy Roman Empire
  e_hre_article: ""
- e_hre: "Imperium Romanorum sive Francorum"
+ e_hre: "Imperium Romanorum" #Imperium Romanorum sive Francorum
  e_hre_adj: "Imperial"
 
  e_italy: "Imperium Meditaliae"
