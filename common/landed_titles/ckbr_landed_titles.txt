@@ -14384,7 +14384,7 @@ d_laamp_ckbr_arab_01 = {
 
 d_laamp_ckbr_arab_02 = {
 	color = { 100 100 100 }
-	capital = c_palermo
+	capital = c_tunis
 
 	definite_form = yes
 	landless = yes

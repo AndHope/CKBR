@@ -78,7 +78,6 @@ ckbr_eunuch_03 = {
 	trait = chaste
 	trait = celibate
 	trait = humble
-	trait = scholar
 	trait = intellect_good_1
 	father = 145136
 	842.1.1 = {
@@ -90,18 +89,15 @@ ckbr_eunuch_03 = {
 		trait = eunuch_1
 		employer = 1700
 		effect = {
-			add_perk = faithful_perk
-			add_perk = zealous_proselytizer_perk
-			add_perk = religious_icon_perk
-			add_perk = prophet_perk
-			add_perk = clerical_justifications_perk
-			add_perk = church_and_state_perk
-			add_perk = radiant_perk
-			add_perk = defender_of_the_faith_perk
-			add_perk = theologian_perk
-			add_trait = theologian
 			add_perk = pedagogy_perk
 			add_perk = open_minded_perk
+			add_perk = scientific_perk
+			add_perk = planned_cultivation_perk
+			add_perk = scholarly_circles_perk
+			add_perk = learn_on_the_job_perk
+			add_perk = sanctioned_loopholes_perk
+			add_perk = scholar_perk
+			add_trait = scholar
 			add_piety = 750
 			add_piety_level = 4
 			learn_language = language_latin
@@ -395,6 +391,74 @@ ckbr_maiden_03 = {
 	}
 	908.1.1 = {
 		death = "908.1.1"
+	}
+}
+ckbr_maiden_04 = {
+	name = "Andrea"
+	#dynasty = 
+	martial = 4
+	diplomacy = 13
+	intrigue = 8
+	stewardship = 9
+	learning = 18
+ 	prowess = 4
+	religion = "orthodox"
+	culture = "french"
+	trait = education_diplomacy_4
+	trait = vengeful
+	trait = lustful
+	trait = deceitful
+	#trait = schemer
+	trait = intellect_good_2
+	trait = beauty_good_2
+	838.1.1 = {
+		birth = "838.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+		effect = {
+			add_perk = pedagogy_perk
+			add_perk = open_minded_perk
+			add_perk = scientific_perk
+			add_perk = planned_cultivation_perk
+			add_perk = scholarly_circles_perk
+			add_perk = learn_on_the_job_perk
+			add_perk = sanctioned_loopholes_perk
+			add_perk = scholar_perk
+			add_trait = scholar
+			learn_language = language_latin
+			learn_language = language_greek
+			learn_language = language_arabic
+		}
+	}
+	908.1.1 = {
+		death = "908.1.1"
+	}
+}
+
+ckbr_durdur_01 = {
+	name = "Aurelia"
+	female = yes
+	martial = 8
+	diplomacy = 9
+	intrigue = 12
+	stewardship = 8
+	learning = 12
+ 	prowess = 12
+	religion = "orthodox"
+	culture = "greek"
+	trait = intellect_good_3
+	trait = beauty_good_3
+	trait = bossy
+	trait = charming
+	trait = rowdy
+	father = ckbr_landless_norse_01
+	mother = ckbr_maiden_04
+	866.1.1 = {
+		birth = "866.1.1"
+	}
+	968.1.1 = {
+		death = "968.1.1"
 	}
 }
 

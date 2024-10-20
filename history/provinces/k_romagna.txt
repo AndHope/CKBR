@@ -2,7 +2,7 @@
 ##d_romagna ###################################
 ###c_ravenna
 2546 = {	#RAVENNA
-	culture = cisalpine
+	culture = italian
 	religion = catholic
 	holding = church_holding
 	504.1.1 = {
@@ -31,7 +31,7 @@
 
 ###c_bologna
 2542 = {	#BOLOGNA
-	culture = cisalpine
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	special_building_slot = generic_university
@@ -53,7 +53,7 @@
 
 ###c_ferrara
 2527 = {	#FERRARA
-	culture = cisalpine
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 }
@@ -66,7 +66,7 @@
 
 ###c_casentino
 2553 = {	#CASENTINO
-	culture = cisalpine
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	900.1.1 = {
@@ -135,7 +135,7 @@
 ##d_spoleto ###################################
 ###c_spoleto
 2585 = {	#SPOLETO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {
@@ -151,7 +151,7 @@
 
 ###c_orvieto
 2568 = {	#ORVIETO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {
@@ -164,7 +164,7 @@
 
 ###c_teramo
 2596 = {	#TERAMO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {
@@ -177,7 +177,7 @@
 
 ###c_lanciano
 2604 = {	#LANCIANO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {
@@ -193,7 +193,7 @@
 
 ###c_abruzzi
 2600 = {	#AVEZZANO
-	culture = lombard
+	culture = italian
 	religion = catholic
 	holding = castle_holding
 	1022.1.1 = {

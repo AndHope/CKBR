@@ -6,6 +6,7 @@ ckbr_landless_bulgar_01 = {
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
+	prowess = 14
 	religion = "tengri_pagan"
 	culture = "bulgarian"
 	trait = ambitious
@@ -29,6 +30,9 @@ ckbr_landless_bulgar_01 = {
 			check_can_recruit = no
 			size = 2
 		}
+		add_pressed_claim = title:d_vidin
+		add_pressed_claim = title:c_vidin
+		add_pressed_claim = title:c_branicevo
 		effect = {
 			learn_language = language_greek
 			add_perk = bellum_justum_perk
@@ -85,6 +89,7 @@ ckbr_landless_albanian_01 = {
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
+	prowess = 16
 	religion = "bogomilist"
 	culture = "albanian"
 	trait = ambitious
@@ -108,6 +113,8 @@ ckbr_landless_albanian_01 = {
 			check_can_recruit = no
 			size = 1
 		}
+		add_pressed_claim = title:c_arbanon
+		add_pressed_claim = title:c_debar
 		effect = {
 			learn_language = language_greek
 			add_perk = bellum_justum_perk
@@ -164,6 +171,7 @@ ckbr_landless_lombard_01 = {
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
+	prowess = 16
 	religion = "catholic"
 	culture = "lombard"
 	trait = ambitious
@@ -187,6 +195,7 @@ ckbr_landless_lombard_01 = {
 			check_can_recruit = no
 			size = 1
 		}
+		add_pressed_claim = title:c_napoli
 		effect = {
 			learn_language = language_greek
 			add_perk = bellum_justum_perk
@@ -235,92 +244,6 @@ ckbr_landless_lombard_01 = {
 		}
 	}
 }
-
-ckbr_landless_norse_01 = {
-	name = "Drogan"
-	#dynasty = random
-	martial = 9
-	diplomacy = 4
-	intrigue = 6
-	stewardship = 5
-	religion = norse_pagan
-	culture = norse
-	trait = ambitious
-	trait = arrogant
-	trait = strong
-	trait = education_martial_4
-	840.1.1 = {
-		birth = "840.1.1"
-	}
-	867.1.1 = {
-		create_maa_regiment = {
-			type = varangian_veterans
-			check_can_recruit = no
-			size = 3
-		}
-		create_maa_regiment = {
-			type = vigmen
-			check_can_recruit = no
-			size = 3
-		}
-		create_maa_regiment = {
-			type = bondi
-			check_can_recruit = no
-			size = 3
-		}
-		trait = viking
-		effect = {
-			learn_language = language_greek
-			add_perk = bellum_justum_perk
-			add_perk = parthian_tactics_perk
-			add_perk = envelopment_perk
-			add_perk = organized_retreat_perk
-			add_perk = hit_and_run_perk
-			add_perk = engineered_for_destruction_perk
-			add_perk = living_off_the_land_perk
-			add_perk = stalwart_leader_perk
-			add_perk = chivalric_dominance_perk
-			add_perk = never_back_down_perk
-			add_perk = kingsguard_perk
-			add_perk = courtship_perk
-			add_perk = promising_prospects_perk
-			add_perk = loyalty_and_respect_perk
-
-		}
-		effect = {
-			add_prestige = 500
-			add_gold = 200
-			if = {
-				limit = {
-					has_dlc_feature = roads_to_power
-				}
-				change_government = landless_adventurer_government
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					has_dlc_feature = roads_to_power
-				}
-				domicile ?= {
-				#Main Building
-				add_domicile_building = camp_main_02
-				add_domicile_building = camp_main_03
-				# 
-				add_domicile_building = baggage_train_01
-				add_domicile_building = baggage_train_02
-				#
-				add_domicile_building = proving_grounds_01
-				add_domicile_building = proving_grounds_02
-				#
-				add_domicile_building = camp_perimeter_01
-				add_domicile_building = camp_perimeter_02
-			}
-			}
-		}
-	}
-}
-
 
 ckbr_landless_arab_01 = {
 	name = "Yusuf"
@@ -329,6 +252,7 @@ ckbr_landless_arab_01 = {
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
+	prowess = 16
 	religion = "ashari"
 	culture = "levantine"
 	trait = diligent
@@ -355,6 +279,7 @@ ckbr_landless_arab_01 = {
 			check_can_recruit = no
 			size = 3
 		}
+		add_pressed_claim = title:d_cyprus
 		effect = {
 			learn_language = language_greek
 			add_perk = bellum_justum_perk
@@ -411,6 +336,7 @@ ckbr_landless_arab_02 = {
 	diplomacy = 4
 	intrigue = 6
 	stewardship = 5
+	prowess = 16
 	religion = "ashari"
 	culture = "maghrebi"
 	trait = stubborn
@@ -438,6 +364,8 @@ ckbr_landless_arab_02 = {
 			check_can_recruit = no
 			size = 3
 		}
+		add_pressed_claim = title:c_siracusa
+		add_pressed_claim = title:c_malta
 		effect = {
 			learn_language = language_greek
 			add_perk = bellum_justum_perk
@@ -483,6 +411,143 @@ ckbr_landless_arab_02 = {
 				add_domicile_building = camp_perimeter_02
 			}
 			}
+		}
+	}
+}
+
+ckbr_landless_norse_01 = {
+	name = "Drogan"
+	#dynasty = random
+	dna = ckbr_drogan_dna
+	martial = 9
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 5
+	prowess = 18
+	religion = norse_pagan
+	culture = norse
+	trait = ambitious
+	trait = arrogant
+	trait = lustful
+	trait = strong
+	trait = athletic
+	trait = physique_good_2
+	trait = education_martial_4
+	840.1.1 = {
+		birth = "840.1.1"
+	}
+	867.1.1 = {
+		add_spouse = ckbr_maiden_04
+		create_maa_regiment = {
+			type = varangian_veterans
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = vigmen
+			check_can_recruit = no
+			size = 3
+		}
+		create_maa_regiment = {
+			type = bondi
+			check_can_recruit = no
+			size = 3
+		}
+		trait = viking
+		effect = {
+			learn_language = language_greek
+			add_perk = bellum_justum_perk
+			add_perk = parthian_tactics_perk
+			add_perk = envelopment_perk
+			add_perk = organized_retreat_perk
+			add_perk = hit_and_run_perk
+			add_perk = engineered_for_destruction_perk
+			add_perk = living_off_the_land_perk
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_perk = courtship_perk
+			add_perk = promising_prospects_perk
+			add_perk = loyalty_and_respect_perk
+
+		}
+		effect = {
+			add_prestige = 1500
+			add_gold = 2000
+			if = {
+				limit = {
+					has_dlc_feature = roads_to_power
+				}
+				change_government = landless_adventurer_government
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc_feature = roads_to_power
+				}
+				domicile ?= {
+				#Main Building
+				add_domicile_building = camp_main_02
+				add_domicile_building = camp_main_03
+				add_domicile_building = camp_main_04
+				# 
+				add_domicile_building = baggage_train_01
+				add_domicile_building = baggage_train_02
+				add_domicile_building = baggage_train_03
+				add_domicile_building = baggage_train_04
+				#
+				add_domicile_building = proving_grounds_01
+				add_domicile_building = proving_grounds_02
+				add_domicile_building = proving_grounds_03
+				add_domicile_building = proving_grounds_04
+				#
+				add_domicile_building = camp_perimeter_01
+				add_domicile_building = camp_perimeter_02
+				add_domicile_building = camp_perimeter_03
+				add_domicile_building = camp_perimeter_04
+			}
+			}
+		}
+	}
+}
+
+ckbr_landless_scot_01 = {
+	name = "Lachlan"
+	#dynasty = random
+	martial = 9
+	diplomacy = 4
+	intrigue = 6
+	stewardship = 5
+	prowess = 20
+	religion = "orthodox"
+	culture = scottish
+	trait = loyal
+	trait = arrogant
+	trait = brave
+	trait = strong
+	trait = athletic
+	trait = physique_good_2
+	trait = giant
+	trait = education_martial_1
+	trait = lifestyle_blademaster
+	trait = bastard
+	848.1.1 = {
+		birth = "848.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+		set_knight_status = force
+		effect = {
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_perk = courtship_perk
+			add_perk = promising_prospects_perk
+			add_perk = loyalty_and_respect_perk
+
 		}
 	}
 }
