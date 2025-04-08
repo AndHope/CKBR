@@ -522,7 +522,8 @@ ckbr_landless_scot_01 = {
 	stewardship = 5
 	prowess = 20
 	religion = "orthodox"
-	culture = scottish
+	culture = gaelic
+	`	
 	trait = loyal
 	trait = arrogant
 	trait = brave

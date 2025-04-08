@@ -2,7 +2,7 @@
 	obligation_levels = {
 		default = {
 			levies = {
-				value = 0.1
+				value = 0.1 #0.3
 				#multiply = governor_efficiency
 			}
 
@@ -87,7 +87,7 @@ administrative_themes = {
 			color = { 0.2 0.2 0.7 1.0 }
 
 			tax_factor = 0.5
-			levies_factor = -0.75
+			levies_factor = -0.75 #added
 
 			vassal_modifier = {
 				development_growth_factor = 0.2
@@ -211,6 +211,7 @@ administrative_themes = {
 			flag = admin_duchy_expansion_unlocked
 			flag = admin_ai_is_warlike
 			flag = admin_theme_frontier
+			flag = admin_theme_can_raid
 		}
 		admin_theme_imperial = {
 			position = { 1 1 }

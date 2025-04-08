@@ -194,7 +194,7 @@ ckbr_varangian_01 = {
 	stewardship = 4
 	learning = 6
  	prowess = 10
-	religion = "orthodox"
+	religion = "norse_pagan"
 	culture = "norse"
 	trait = brave
 	trait = diligent
@@ -203,7 +203,6 @@ ckbr_varangian_01 = {
 	trait = physique_good_1
 	trait = strong
 	trait = lifestyle_blademaster
-	trait = bastard
 	trait = varangian
 	trait = loyal
 	830.1.1 = {
@@ -239,7 +238,7 @@ ckbr_varangian_02 = {
 	stewardship = 4
 	learning = 6
  	prowess = 10
-	religion = "orthodox"
+	religion = "norse_pagan"
 	culture = "norse"
 	trait = brave
 	trait = diligent
@@ -248,7 +247,6 @@ ckbr_varangian_02 = {
 	trait = physique_good_2
 	trait = strong
 	trait = lifestyle_blademaster
-	trait = bastard
 	trait = varangian
 	trait = loyal
 	845.1.1 = {
@@ -289,8 +287,8 @@ ckbr_phokas_01 = {
 	trait = brave
 	trait = education_martial_3
 	trait = physique_good_1
-	820.1.1 = {
-		birth = "820.1.1"
+	810.1.1 = {
+		birth = "810.1.1"
 	}
 	867.1.1 = {
 		effect = {
@@ -310,6 +308,52 @@ ckbr_phokas_01 = {
 		death = "908.1.1"
 	}
 }
+
+#Military/Prowess Varangian
+ckbr_varangian_03 = {
+	name = "Askeladd"
+	dynasty = 1029129
+	martial = 15
+	diplomacy = 10
+	intrigue = 14
+	stewardship = 9
+	learning = 10
+ 	prowess = 12
+	religion = "norse_pagan"
+	culture = "welsh"
+	trait = brave
+	trait = diligent
+	trait = athletic
+	trait = education_martial_1
+	trait = physique_good_1
+	trait = strong
+	trait = lifestyle_blademaster
+	trait = varangian
+	trait = loyal
+	840.1.1 = {
+		birth = "840.1.1"
+	}
+	867.1.1 = {
+		employer = 1700
+		set_knight_status = force
+		effect = {
+			add_perk = stalwart_leader_perk
+			add_perk = chivalric_dominance_perk
+			add_perk = never_back_down_perk
+			add_perk = kingsguard_perk
+			add_perk = courtship_perk
+			add_perk = promising_prospects_perk
+			add_perk = loyalty_and_respect_perk
+			add_perk = peacemaker_perk
+			add_perk = gallant_perk
+		}
+	}
+	908.1.1 = {
+		death = "908.1.1"
+	}
+}
+
+
 
 #Maidens
 ckbr_maiden_01 = {
@@ -395,7 +439,8 @@ ckbr_maiden_03 = {
 }
 ckbr_maiden_04 = {
 	name = "Andrea"
-	#dynasty = 
+	female = yes
+	dynasty = 1044111 #Louping
 	martial = 4
 	diplomacy = 13
 	intrigue = 8
@@ -411,8 +456,8 @@ ckbr_maiden_04 = {
 	#trait = schemer
 	trait = intellect_good_2
 	trait = beauty_good_2
-	838.1.1 = {
-		birth = "838.1.1"
+	850.1.1 = {
+		birth = "850.1.1"
 	}
 	867.1.1 = {
 		employer = 1700
@@ -438,6 +483,7 @@ ckbr_maiden_04 = {
 
 ckbr_durdur_01 = {
 	name = "Aurelia"
+	dynasty = 1044111 #Louping
 	female = yes
 	martial = 8
 	diplomacy = 9
